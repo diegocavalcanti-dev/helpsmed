@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0A1B2E" />
+
+  <title>HelpsMed — Consultoria de Alta Performance para a Residência Médica</title>
+  <meta name="description" content="Mentoria individual e estratégica para maximizar cada ponto do seu currículo médico e disputar a residência dos sonhos com vantagem real. Metodologia aplicada aos editais mais concorridos do país." />
+  <meta name="author" content="HelpsMed" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="HelpsMed" />
+  <meta property="og:title" content="HelpsMed — Seu currículo médico como imã de aprovações" />
+  <meta property="og:description" content="Mentoria estratégica para maximizar pontos no seu currículo e conquistar a residência dos sonhos. Editais como ENARE, USP, UNIFESP e mais." />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:url" content="[URL_DO_SITE]" />
+  <meta property="og:image" content="[URL_IMAGEM_COMPARTILHAMENTO]" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="HelpsMed — Consultoria para a Residência Médica" />
+  <meta name="twitter:description" content="Maximize cada ponto do seu currículo e dispute a residência com vantagem real." />
+
+  <link rel="canonical" href="[URL_DO_SITE]" />
+
+  <!-- Favicon (inline SVG) -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230A1B2E'/%3E%3Cpath d='M7 16h4l2-5 4 10 2-5h6' fill='none' stroke='%2314C4B0' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="assets/styles.css" />
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "HelpsMed",
+    "description": "Consultoria educacional, mentoria de carreira e treinamento para a área médica, com foco em maximização de currículo para residência médica.",
+    "areaServed": "BR",
+    "serviceType": ["Mentoria de currículo médico", "Treinamento em urgência e emergência"],
+    "url": "[URL_DO_SITE]"
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ============ SKIP LINK ============ -->
+  <a class="skip-link" href="#hero">Ir para o conteúdo</a>
+
+  <!-- ============ ANNOUNCEMENT BAR ============ -->
+  <div class="announcement" id="announcement">
+    <div class="container announcement__inner">
+      <span class="announcement__dot"></span>
+      <p><strong>Turma de mentoria com vagas limitadas.</strong> Agenda de análises abre novas datas a cada semana.</p>
+      <a href="#conversao" class="announcement__link">Ver disponibilidade →</a>
+    </div>
+  </div>
+
+  <!-- ============ HEADER ============ -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#hero" class="brand" aria-label="HelpsMed — página inicial">
+        <span class="brand__mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32" width="32" height="32" fill="none">
+            <rect width="32" height="32" rx="9" fill="url(#brandGrad)"/>
+            <path d="M6 16h4.2l2-5.2 4 10.4 2-5.2H28" stroke="#fff" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+            <defs>
+              <linearGradient id="brandGrad" x1="0" y1="0" x2="32" y2="32">
+                <stop stop-color="#14C4B0"/><stop offset="1" stop-color="#0E8F9E"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </span>
+        <span class="brand__text">Helps<span class="brand__accent">Med</span></span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Navegação principal">
+        <a href="#hero" class="nav__link">Home</a>
+        <a href="#servicos" class="nav__link">Mentoria de Currículo</a>
+        <a href="#treinamentos" class="nav__link">Treinamentos</a>
+        <a href="#sobre" class="nav__link">Sobre Nós</a>
+        <a href="#contato" class="nav__link">Contato</a>
+      </nav>
+
+      <div class="header__actions">
+        <a href="#contato" class="btn btn--primary btn--sm" data-cta="header">Falar com Consultor</a>
+        <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="hero">
+      <div class="hero__bg" aria-hidden="true">
+        <div class="hero__grid"></div>
+        <div class="hero__glow hero__glow--1"></div>
+        <div class="hero__glow hero__glow--2"></div>
+      </div>
+
+      <div class="container hero__inner">
+        <div class="hero__content reveal">
+          <span class="eyebrow">
+            <span class="eyebrow__dot"></span>
+            Consultoria de alta performance para a residência médica
+          </span>
+
+          <h1 class="hero__title">
+            Maximize cada ponto do seu currículo e dispute a residência dos sonhos com
+            <span class="text-gradient"> vantagem real</span>.
+          </h1>
+
+          <p class="hero__subtitle">
+            Mentoria individual, estratégica e conduzida por quem domina os editais mais
+            concorridos do país. Você para de disputar no achismo e entra na banca com o
+            currículo mais bem construído da sala.
+          </p>
+
+          <div class="hero__promise">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" aria-hidden="true"><path d="M20 6 9 17l-5-5" stroke="#14C4B0" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <p>Descubra os <strong>pontos ocultos do seu currículo</strong> e receba uma estratégia sob medida para o seu edital em até <strong>7 dias</strong>.</p>
+          </div>
+
+          <div class="hero__cta">
+            <a href="#contato" class="btn btn--primary btn--lg" data-cta="hero-primary">
+              Quero Analisar Meu Currículo
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+            <a href="#servicos" class="btn btn--ghost btn--lg" data-cta="hero-secondary">Ver como funciona</a>
+          </div>
+
+          <div class="hero__reassure">
+            <span>✓ Diagnóstico personalizado</span>
+            <span>✓ Sem compromisso na primeira conversa</span>
+          </div>
+        </div>
+
+        <aside class="hero__panel reveal" aria-label="Indicadores da HelpsMed">
+          <div class="hero__card hero__card--main">
+            <div class="hero__card-head">
+              <span class="hero__card-label">Diagnóstico de Currículo</span>
+              <span class="badge badge--live">Análise ativa</span>
+            </div>
+            <div class="score">
+              <div class="score__ring" data-score="86">
+                <svg viewBox="0 0 120 120" width="120" height="120">
+                  <circle cx="60" cy="60" r="52" stroke="rgba(255,255,255,.08)" stroke-width="10" fill="none"/>
+                  <circle class="score__arc" cx="60" cy="60" r="52" stroke="url(#scoreGrad)" stroke-width="10" fill="none" stroke-linecap="round" transform="rotate(-90 60 60)"/>
+                  <defs><linearGradient id="scoreGrad" x1="0" y1="0" x2="120" y2="120"><stop stop-color="#14C4B0"/><stop offset="1" stop-color="#E4B767"/></linearGradient></defs>
+                </svg>
+                <div class="score__value"><strong id="scoreNum">0</strong><small>/100</small></div>
+              </div>
+              <div class="score__meta">
+                <p class="score__title">Potencial de pontuação</p>
+                <ul class="score__list">
+                  <li><span class="dot dot--ok"></span> Ligas e produção científica</li>
+                  <li><span class="dot dot--warn"></span> Comprovações a organizar</li>
+                  <li><span class="dot dot--up"></span> +12 pontos mapeados</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero__stats">
+            <div class="hero__stat">
+              <strong data-count="800" data-suffix="+">0</strong>
+              <span>currículos analisados</span>
+            </div>
+            <div class="hero__stat">
+              <strong data-count="27" data-suffix="">0</strong>
+              <span>editais mapeados</span>
+            </div>
+            <div class="hero__stat">
+              <strong data-count="38" data-suffix="%">0</strong>
+              <span>de ganho médio na nota*</span>
+            </div>
+          </div>
+        </aside>
+      </div>
+
+      <!-- Trust bar -->
+      <div class="container">
+        <div class="trustbar reveal">
+          <span class="trustbar__label">Metodologia aplicada a editais como</span>
+          <ul class="trustbar__logos">
+            <li>ENARE</li><li>USP</li><li>UNIFESP</li><li>UNICAMP</li><li>SUS-SP</li>
+            <li class="trustbar__partner">Rede Curem</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PAIN / EMPATHY ============ -->
+    <section class="section section--tight" id="dor">
+      <div class="container">
+        <div class="pain reveal">
+          <h2 class="section__title">A prova de conhecimento você domina. <span class="text-muted-strong">A disputa pelo currículo é onde a maioria perde a vaga.</span></h2>
+          <p class="section__lead">
+            Você estudou anos para chegar até aqui. Mas nos editais mais concorridos, dois candidatos com a mesma nota na prova são separados por décimos no currículo — décimos que quase ninguém sabe onde buscar. É exatamente aí que a HelpsMed entra.
+          </p>
+          <div class="pain__grid">
+            <div class="pain__item">
+              <span class="pain__icon">⏳</span>
+              <p>"Vou perder pontos porque não sei o que o edital realmente valoriza."</p>
+            </div>
+            <div class="pain__item">
+              <span class="pain__icon">📄</span>
+              <p>"Tenho títulos e certificados, mas não sei como comprovar e pontuar cada um."</p>
+            </div>
+            <div class="pain__item">
+              <span class="pain__icon">🩺</span>
+              <p>"Fui aprovado, mas travo no plantão de urgência por falta de segurança prática."</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES / MENTORIA ============ -->
+    <section class="section section--dark" id="servicos">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow eyebrow--center"><span class="eyebrow__dot"></span> Como a HelpsMed trabalha ao seu lado</span>
+          <h2 class="section__title">Duas frentes para blindar a sua aprovação: <span class="text-gradient">currículo e prática</span>.</h2>
+          <p class="section__lead section__lead--center">Nada de conselhos genéricos de carreira. Cada entrega é desenhada para a realidade do seu edital e do seu momento na medicina.</p>
+        </div>
+
+        <div class="services">
+          <!-- Card 1: Mentoria de Currículo -->
+          <article class="service-card service-card--featured reveal">
+            <div class="service-card__badge">Carro-chefe</div>
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="none"><path d="M9 2h6a2 2 0 0 1 2 2v0a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2v0a2 2 0 0 1 2-2Z" stroke="#14C4B0" stroke-width="1.8"/><path d="M7 4H5a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-2" stroke="#14C4B0" stroke-width="1.8"/><path d="M8 12h8M8 16h5" stroke="#14C4B0" stroke-width="1.8" stroke-linecap="round"/></svg>
+            </div>
+            <h3 class="service-card__title">Mentoria de Currículo Médico</h3>
+            <p class="service-card__desc">
+              Uma análise cirúrgica do seu currículo, item por item, cruzada com o edital-alvo. Mapeamos onde você já pontua, onde está deixando pontos na mesa e o caminho mais rápido para transformar cada atividade em nota máxima.
+            </p>
+            <ul class="service-card__list">
+              <li><svg class="check" viewBox="0 0 24 24" width="18" height="18" fill="none"><path d="M20 6 9 17l-5-5" stroke="#14C4B0" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg> Diagnóstico completo à luz do seu edital (ENARE, USP, UNIFESP e outros)</li>
+              <li><svg class="check" viewBox="0 0 24 24" width="18" height="18" fill="none"><path d="M20 6 9 17l-5-5" stroke="#14C4B0" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg> Plano de ação para conquistar os pontos que ainda faltam a tempo</li>
+              <li><svg class="check" viewBox="0 0 24 24" width="18" height="18" fill="none"><path d="M20 6 9 17l-5-5" stroke="#14C4B0" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg> Organização e comprovação correta de cada título e certificado</li>
+              <li><svg class="check" viewBox="0 0 24 24" width="18" height="18" fill="none"><path d="M20 6 9 17l-5-5" stroke="#14C4B0" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg> Acompanhamento individual até a entrega final da documentação</li>
+            </ul>
+            <a href="#contato" class="btn btn--primary btn--block" data-cta="service-mentoria">Quero Analisar Meu Currículo</a>
+          </article>
+
+          <!-- Card 2: Treinamentos -->
+          <article class="service-card reveal" id="treinamentos">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="none"><path d="M12 3v18M3 12h18" stroke="#E4B767" stroke-width="0"/><path d="M4 7h16M4 12h16M4 17h10" stroke="#E4B767" stroke-width="0"/><path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18Z" stroke="#E4B767" stroke-width="1.8"/><path d="M9 12h6M12 9v6" stroke="#E4B767" stroke-width="1.8" stroke-linecap="round"/></svg>
+            </div>
+            <h3 class="service-card__title">Treinamentos de Urgência &amp; Emergência</h3>
+            <p class="service-card__desc">
+              Cursos práticos e diretos ao ponto para o recém-formado assumir o plantão com segurança técnica desde o primeiro dia. Protocolos, condutas e tomada de decisão treinados como acontecem na porta.
+            </p>
+            <ul class="service-card__list">
+              <li><svg class="check check--gold" viewBox="0 0 24 24" width="18" height="18" fill="none"><path d="M20 6 9 17l-5-5" stroke="#E4B767" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg> Condutas de urgência e emergência baseadas em protocolos atuais</li>
+              <li><svg class="check check--gold" viewBox="0 0 24 24" width="18" height="18" fill="none"><path d="M20 6 9 17l-5-5" stroke="#E4B767" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg> Raciocínio clínico rápido para decisões de plantão sob pressão</li>
+              <li><svg class="check check--gold" viewBox="0 0 24 24" width="18" height="18" fill="none"><path d="M20 6 9 17l-5-5" stroke="#E4B767" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg> Material objetivo, aplicável no próximo plantão</li>
+              <li><svg class="check check--gold" viewBox="0 0 24 24" width="18" height="18" fill="none"><path d="M20 6 9 17l-5-5" stroke="#E4B767" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg> Acesso vitalício ao conteúdo e atualizações</li>
+            </ul>
+            <a href="#contato" class="btn btn--outline btn--block" data-cta="service-treinamento">Conhecer os Treinamentos</a>
+          </article>
+        </div>
+
+        <!-- Differentiators strip -->
+        <div class="diff reveal">
+          <div class="diff__item">
+            <strong>Especialistas no mercado médico</strong>
+            <p>Você é orientado por quem vive a realidade da residência e dos plantões — não por consultores genéricos de carreira.</p>
+          </div>
+          <div class="diff__item">
+            <strong>Foco nos editais mais duros</strong>
+            <p>Nossa metodologia nasceu para decifrar os processos seletivos mais concorridos e complexos do país.</p>
+          </div>
+          <div class="diff__item">
+            <strong>Atendimento individual</strong>
+            <p>Cada currículo é único. Sua estratégia é construída para o seu histórico, seu tempo e seu objetivo.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROCESS ============ -->
+    <section class="section" id="processo">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow eyebrow--center"><span class="eyebrow__dot"></span> Um caminho claro, do diagnóstico à banca</span>
+          <h2 class="section__title">Como destravamos o seu currículo em <span class="text-gradient">4 passos</span></h2>
+        </div>
+        <ol class="steps">
+          <li class="step reveal">
+            <span class="step__num">01</span>
+            <h3 class="step__title">Conversa de diagnóstico</h3>
+            <p class="step__desc">Entendemos o seu momento, o edital-alvo e o prazo. Você sai da primeira conversa já sabendo onde está o maior potencial de pontos.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__num">02</span>
+            <h3 class="step__title">Análise curricular profunda</h3>
+            <p class="step__desc">Cruzamos cada item do seu currículo com os critérios do edital e revelamos os pontos ocultos que você ainda não estava aproveitando.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__num">03</span>
+            <h3 class="step__title">Plano de maximização</h3>
+            <p class="step__desc">Você recebe um plano de ação priorizado: o que buscar, o que comprovar e o que organizar para somar o máximo dentro do seu tempo.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__num">04</span>
+            <h3 class="step__title">Execução acompanhada</h3>
+            <p class="step__desc">Seguimos ao seu lado até a entrega final, garantindo que nenhum ponto se perca por erro de documentação ou de estratégia.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ BENEFITS ============ -->
+    <section class="section section--dark" id="beneficios">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow eyebrow--center"><span class="eyebrow__dot"></span> O que muda na sua jornada</span>
+          <h2 class="section__title">Mais pontos no edital. <span class="text-gradient">Menos peso nos ombros.</span></h2>
+          <p class="section__lead section__lead--center">O ganho não é só a nota. É a tranquilidade de fazer a prova sabendo que a parte que dependia de estratégia já está resolvida.</p>
+        </div>
+
+        <div class="benefits">
+          <div class="benefit reveal">
+            <span class="benefit__icon">🎯</span>
+            <h3 class="benefit__title">Cada ponto no lugar certo</h3>
+            <p>Nenhum título esquecido, nenhum certificado mal comprovado. Você entrega o currículo somando tudo o que o edital permite.</p>
+          </div>
+          <div class="benefit reveal">
+            <span class="benefit__icon">⏱️</span>
+            <h3 class="benefit__title">Tempo economizado</h3>
+            <p>Em vez de se perder em fóruns e boatos, você segue um plano validado e usa o seu tempo no que realmente move a nota.</p>
+          </div>
+          <div class="benefit reveal">
+            <span class="benefit__icon">🛡️</span>
+            <h3 class="benefit__title">Segurança no plantão</h3>
+            <p>Você assume a urgência e a emergência com condutas treinadas, decidindo com firmeza mesmo sob pressão.</p>
+          </div>
+          <div class="benefit reveal">
+            <span class="benefit__icon">🧠</span>
+            <h3 class="benefit__title">Fim da ansiedade pré-prova</h3>
+            <p>A insegurança dá lugar à clareza. Você chega ao processo seletivo confiante, com um currículo que fala por você.</p>
+          </div>
+          <div class="benefit reveal">
+            <span class="benefit__icon">📈</span>
+            <h3 class="benefit__title">Vantagem competitiva real</h3>
+            <p>Enquanto a maioria improvisa, você disputa com estratégia — a diferença que decide vagas em editais concorridos.</p>
+          </div>
+          <div class="benefit reveal">
+            <span class="benefit__icon">🤝</span>
+            <h3 class="benefit__title">Um especialista ao seu lado</h3>
+            <p>Você nunca decide sozinho. Tem quem entende o mercado médico revisando cada escolha até a entrega final.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT / AUTHORITY ============ -->
+    <section class="section" id="sobre">
+      <div class="container about">
+        <div class="about__media reveal" aria-hidden="true">
+          <div class="about__photo">
+            <div class="about__photo-inner">
+              <span class="about__photo-tag">[FOTO PROFISSIONAL DA EQUIPE HELPSMED]</span>
+            </div>
+          </div>
+          <div class="about__seal">
+            <span class="about__seal-top">Parceria</span>
+            <span class="about__seal-main">Rede Curem</span>
+            <span class="about__seal-sub">Ecossistema de educação médica</span>
+          </div>
+        </div>
+
+        <div class="about__content reveal">
+          <span class="eyebrow"><span class="eyebrow__dot"></span> Quem está por trás da HelpsMed</span>
+          <h2 class="section__title">Nascemos dentro da realidade médica — não fora dela.</h2>
+          <p>
+            A HelpsMed surgiu de uma constatação simples e injusta: candidatos brilhantes perdem a residência por não saberem construir e comprovar o próprio currículo. Conhecimento clínico eles têm de sobra. O que falta é estratégia de pontuação — e ninguém ensina isso na faculdade.
+          </p>
+          <p>
+            Reunimos quem entende, na prática, como pensam as bancas dos editais mais concorridos do país. Traduzimos regras complexas em decisões claras e transformamos currículos comuns em candidaturas competitivas. Em parceria com a <strong>Rede Curem</strong>, unimos mentoria de carreira e capacitação prática num só lugar.
+          </p>
+          <ul class="about__pills">
+            <li>Editais mapeados: ENARE · USP · UNIFESP · UNICAMP</li>
+            <li>Foco em urgência e emergência</li>
+            <li>Atendimento 100% individual</li>
+          </ul>
+          <a href="#contato" class="btn btn--primary" data-cta="about">Falar com um Especialista</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SOCIAL PROOF ============ -->
+    <section class="section section--dark" id="provas">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow eyebrow--center"><span class="eyebrow__dot"></span> Resultados que falam por você</span>
+          <h2 class="section__title">Quem confiou o currículo à HelpsMed <span class="text-gradient">chegou mais longe</span>.</h2>
+        </div>
+
+        <div class="metrics reveal">
+          <div class="metric"><strong data-count="800" data-suffix="+">0</strong><span>currículos analisados</span></div>
+          <div class="metric"><strong data-count="38" data-suffix="%">0</strong><span>de ganho médio na nota de currículo*</span></div>
+          <div class="metric"><strong data-count="27" data-suffix="">0</strong><span>editais mapeados em detalhe</span></div>
+          <div class="metric"><strong data-count="9" data-suffix="/10">0</strong><span>mentorados recomendam*</span></div>
+        </div>
+
+        <div class="testimonials">
+          <figure class="testimonial reveal">
+            <div class="testimonial__stars" aria-label="5 de 5">★★★★★</div>
+            <blockquote>Cheguei achando meu currículo fraco. Saí da mentoria com pontos que eu nem sabia que podia somar. Fez diferença direta na minha classificação.</blockquote>
+            <figcaption><span class="testimonial__avatar">[FOTO]</span><span><strong>[Nome do aluno]</strong><small>Aprovado(a) em [Programa/Instituição]</small></span></figcaption>
+          </figure>
+          <figure class="testimonial reveal">
+            <div class="testimonial__stars" aria-label="5 de 5">★★★★★</div>
+            <blockquote>O acompanhamento foi individual de verdade. Cada dúvida sobre comprovação foi resolvida antes da entrega. Tirou um peso enorme da minha cabeça.</blockquote>
+            <figcaption><span class="testimonial__avatar">[FOTO]</span><span><strong>[Nome do aluno]</strong><small>Interno(a) — edital [Nome]</small></span></figcaption>
+          </figure>
+          <figure class="testimonial reveal">
+            <div class="testimonial__stars" aria-label="5 de 5">★★★★★</div>
+            <blockquote>Fiz o treinamento de urgência antes do primeiro plantão. Assumi a porta com segurança que eu não tinha. Recomendo para todo recém-formado.</blockquote>
+            <figcaption><span class="testimonial__avatar">[FOTO]</span><span><strong>[Nome do aluno]</strong><small>Médico(a) recém-formado(a)</small></span></figcaption>
+          </figure>
+        </div>
+
+        <div class="proof-note reveal">
+          <span class="proof-note__icon" aria-hidden="true">💬</span>
+          <p>Espaço reservado para <strong>prints de WhatsApp de aprovações</strong> e <strong>depoimentos em vídeo</strong>. Inserir aqui as capturas reais da pasta <em>[/depoimentos]</em>.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ OBJECTIONS ============ -->
+    <section class="section" id="objecoes">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow eyebrow--center"><span class="eyebrow__dot"></span> Vamos ser honestos</span>
+          <h2 class="section__title">As dúvidas que provavelmente estão <span class="text-gradient">passando na sua cabeça agora</span></h2>
+        </div>
+
+        <div class="objections">
+          <div class="objection reveal">
+            <h3 class="objection__q">"Será que ainda dá tempo para o meu edital?"</h3>
+            <p class="objection__a">Quanto antes começamos, mais pontos conseguimos somar — mas mesmo com prazo curto, há sempre organização e comprovação que fazem diferença imediata na sua nota. Na primeira conversa, dizemos com franqueza o que é possível no seu tempo.</p>
+          </div>
+          <div class="objection reveal">
+            <h3 class="objection__q">"Meu currículo é praticamente zerado. Vale a pena?"</h3>
+            <p class="objection__a">É justamente quem começa do zero que mais tem a ganhar com estratégia. Definimos as atividades de maior retorno de pontos por hora investida, para você construir um currículo competitivo sem desperdiçar tempo com o que pontua pouco.</p>
+          </div>
+          <div class="objection reveal">
+            <h3 class="objection__q">"Sou recém-formado. Isso serve para mim?"</h3>
+            <p class="objection__a">Serve — e em dose dupla. Cuidamos do seu currículo para a residência e ainda te preparamos para os plantões de urgência com segurança técnica. Você avança na carreira e na prova ao mesmo tempo.</p>
+          </div>
+          <div class="objection reveal">
+            <h3 class="objection__q">"Já vi consultorias de carreira genéricas. Qual a diferença?"</h3>
+            <p class="objection__a">A diferença é o foco cirúrgico no mercado médico. Não damos conselhos amplos de LinkedIn: lemos o seu edital, entendemos as bancas e trabalhamos ponto a ponto. É consultoria de currículo médico, feita por quem vive a medicina.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONVERSION / OFFER ============ -->
+    <section class="section section--offer" id="conversao">
+      <div class="container">
+        <div class="offer reveal">
+          <div class="offer__glow" aria-hidden="true"></div>
+          <div class="offer__head">
+            <span class="eyebrow eyebrow--center eyebrow--light"><span class="eyebrow__dot"></span> Sua próxima aprovação começa por uma decisão</span>
+            <h2 class="offer__title">Comece pela <span class="text-gradient">Análise Estratégica de Currículo</span></h2>
+            <p class="offer__lead">Uma sessão individual em que revelamos, ponto a ponto, onde está o potencial escondido do seu currículo — e o caminho para transformá-lo no seu maior diferencial na banca.</p>
+          </div>
+
+          <div class="offer__grid">
+            <ul class="offer__list">
+              <li><svg class="check" viewBox="0 0 24 24" width="20" height="20" fill="none"><path d="M20 6 9 17l-5-5" stroke="#14C4B0" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg> Diagnóstico do seu currículo à luz do edital-alvo</li>
+              <li><svg class="check" viewBox="0 0 24 24" width="20" height="20" fill="none"><path d="M20 6 9 17l-5-5" stroke="#14C4B0" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg> Mapa dos pontos que você ainda pode conquistar</li>
+              <li><svg class="check" viewBox="0 0 24 24" width="20" height="20" fill="none"><path d="M20 6 9 17l-5-5" stroke="#14C4B0" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg> Plano de ação priorizado para o seu prazo</li>
+              <li class="offer__bonus"><span class="offer__bonus-tag">Bônus</span> Guia de comprovação de títulos para não perder ponto por documentação</li>
+              <li class="offer__bonus"><span class="offer__bonus-tag">Bônus</span> Acesso a uma aula-relâmpago de conduta em urgência e emergência</li>
+            </ul>
+
+            <div class="offer__card">
+              <span class="offer__card-label">Primeira análise a partir de</span>
+              <div class="offer__price">
+                <span class="offer__price-from">de R$ [VALOR CHEIO]</span>
+                <span class="offer__price-now">R$ [VALOR]</span>
+                <span class="offer__price-cond">ou em até [Nx] no cartão</span>
+              </div>
+              <p class="offer__anchor">Uma fração do que representa <strong>um ano a mais</strong> tentando a residência. O que está em jogo não é o valor da mentoria — é o custo de perder a vaga por décimos.</p>
+              <a href="#contato" class="btn btn--primary btn--lg btn--block" data-cta="offer">Garantir Minha Vaga na Mentoria</a>
+              <div class="offer__scarcity">
+                <span class="offer__scarcity-dot"></span>
+                Vagas limitadas por turma para manter o atendimento individual.
+              </div>
+              <p class="offer__risk">🛡️ Risco zero: se na primeira conversa não enxergarmos caminho de ganho para o seu currículo, você não segue — e não paga.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT / LEAD FORM ============ -->
+    <section class="section section--dark" id="contato">
+      <div class="container contact">
+        <div class="contact__intro reveal">
+          <span class="eyebrow"><span class="eyebrow__dot"></span> Vamos conversar</span>
+          <h2 class="section__title">Dê o primeiro passo rumo à <span class="text-gradient">sua aprovação</span></h2>
+          <p>Preencha os campos ao lado ou fale agora mesmo pelo WhatsApp. Um consultor da HelpsMed retorna com o próximo passo para a análise do seu currículo.</p>
+
+          <ul class="contact__channels">
+            <li>
+              <a class="contact__channel" href="[LINK_WHATSAPP]" data-cta="contact-whatsapp" data-wa>
+                <span class="contact__channel-icon">
+                  <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2Zm5.8 14.16c-.24.68-1.42 1.32-1.95 1.36-.5.05-1.14.24-3.72-.79-3.14-1.24-5.14-4.42-5.29-4.63-.15-.2-1.26-1.68-1.26-3.21s.8-2.28 1.09-2.59c.28-.31.62-.39.83-.39.2 0 .41 0 .59.01.19.01.44-.07.69.53.24.6.83 2.06.9 2.21.07.15.12.33.02.53-.1.2-.15.33-.29.5-.15.18-.31.4-.44.53-.15.15-.3.31-.13.6.17.29.76 1.25 1.63 2.03 1.12 1 2.06 1.31 2.35 1.46.29.15.46.13.63-.08.17-.2.72-.84.91-1.13.19-.29.39-.24.65-.15.26.1 1.65.78 1.94.92.28.15.47.22.54.34.07.12.07.68-.17 1.36Z"/></svg>
+                </span>
+                <span><strong>WhatsApp</strong><small>Resposta rápida com um consultor</small></span>
+              </a>
+            </li>
+            <li>
+              <a class="contact__channel" href="mailto:[EMAIL]">
+                <span class="contact__channel-icon">
+                  <svg viewBox="0 0 24 24" width="22" height="22" fill="none"><rect x="3" y="5" width="18" height="14" rx="2.5" stroke="currentColor" stroke-width="1.8"/><path d="m4 7 8 6 8-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+                </span>
+                <span><strong>E-mail</strong><small>[EMAIL]</small></span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <form class="contact__form reveal" id="leadForm" novalidate>
+          <div class="field">
+            <label for="nome">Nome completo</label>
+            <input type="text" id="nome" name="nome" autocomplete="name" required placeholder="Como podemos te chamar?" />
+          </div>
+          <div class="field">
+            <label for="whatsapp">WhatsApp</label>
+            <input type="tel" id="whatsapp" name="whatsapp" autocomplete="tel" required placeholder="(00) 00000-0000" />
+          </div>
+          <div class="field">
+            <label for="momento">Seu momento na medicina</label>
+            <select id="momento" name="momento" required>
+              <option value="" disabled selected>Selecione uma opção</option>
+              <option>Interno(a) — último ano</option>
+              <option>Médico(a) recém-formado(a)</option>
+              <option>Já tentei a residência antes</option>
+              <option>Outro</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="edital">Edital ou instituição-alvo <span class="field__opt">(opcional)</span></label>
+            <input type="text" id="edital" name="edital" placeholder="Ex.: ENARE, USP, UNIFESP..." />
+          </div>
+          <div class="field">
+            <label for="mensagem">Onde você sente que mais precisa de ajuda? <span class="field__opt">(opcional)</span></label>
+            <textarea id="mensagem" name="mensagem" rows="3" placeholder="Conte rapidamente o seu objetivo e o seu prazo."></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--lg btn--block" data-cta="form-submit">
+            Quero Falar com um Consultor
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <p class="contact__consent">Ao enviar, você concorda em receber o contato da HelpsMed. Seus dados estão protegidos e não são compartilhados.</p>
+          <p class="contact__success" id="formSuccess" hidden>✓ Recebemos seus dados. Vamos te chamar no WhatsApp em instantes.</p>
+        </form>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="section" id="faq">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow eyebrow--center"><span class="eyebrow__dot"></span> Perguntas frequentes</span>
+          <h2 class="section__title">Tudo o que você precisa saber <span class="text-gradient">antes de começar</span></h2>
+        </div>
+
+        <div class="faq" id="faqList">
+          <details class="faq__item reveal">
+            <summary class="faq__q">Como funciona a análise do meu currículo?<span class="faq__icon" aria-hidden="true"></span></summary>
+            <div class="faq__a"><p>Começa com uma conversa de diagnóstico para entender o seu edital-alvo e o seu prazo. Em seguida, analisamos cada item do currículo cruzando com os critérios do edital e entregamos um plano de ação priorizado, com acompanhamento até a entrega final da documentação.</p></div>
+          </details>
+          <details class="faq__item reveal">
+            <summary class="faq__q">A mentoria é individual ou em grupo?<span class="faq__icon" aria-hidden="true"></span></summary>
+            <div class="faq__a"><p>Totalmente individual. Cada currículo tem um histórico, um prazo e um objetivo diferentes — por isso trabalhamos com vagas limitadas por turma, para garantir atenção real ao seu caso.</p></div>
+          </details>
+          <details class="faq__item reveal">
+            <summary class="faq__q">Vocês atendem qualquer edital de residência?<span class="faq__icon" aria-hidden="true"></span></summary>
+            <div class="faq__a"><p>Nossa metodologia foi construída sobre os editais mais concorridos e complexos do país, como ENARE, USP, UNIFESP e UNICAMP. Se o seu edital não estiver na lista, mapeamos os critérios dele junto com você na primeira etapa.</p></div>
+          </details>
+          <details class="faq__item reveal">
+            <summary class="faq__q">Não tenho quase nada no currículo. Ainda assim vale?<span class="faq__icon" aria-hidden="true"></span></summary>
+            <div class="faq__a"><p>Vale — e talvez seja onde a mentoria mais impacta. Quando o currículo começa do zero, cada escolha certa rende muito. Priorizamos as atividades de maior retorno de pontos para o seu tempo disponível.</p></div>
+          </details>
+          <details class="faq__item reveal">
+            <summary class="faq__q">Os treinamentos de urgência são teóricos ou práticos?<span class="faq__icon" aria-hidden="true"></span></summary>
+            <div class="faq__a"><p>São práticos e aplicáveis ao plantão. Trabalhamos condutas, protocolos atuais e raciocínio clínico rápido, com material objetivo que você usa já no próximo plantão. O acesso é vitalício, com atualizações.</p></div>
+          </details>
+          <details class="faq__item reveal">
+            <summary class="faq__q">Em quanto tempo recebo o retorno após o contato?<span class="faq__icon" aria-hidden="true"></span></summary>
+            <div class="faq__a"><p>Depois que você envia o formulário ou chama no WhatsApp, um consultor retorna para agendar a conversa de diagnóstico. A análise estratégica do currículo é entregue em até 7 dias após o início.</p></div>
+          </details>
+          <details class="faq__item reveal">
+            <summary class="faq__q">Como funciona o pagamento e a garantia?<span class="faq__icon" aria-hidden="true"></span></summary>
+            <div class="faq__a"><p>As condições são apresentadas na conversa inicial, com opções de parcelamento. E há risco zero: se na primeira conversa não enxergarmos um caminho claro de ganho para o seu currículo, você não segue — e não paga.</p></div>
+          </details>
+        </div>
+
+        <div class="faq-cta reveal">
+          <p>Ficou com uma dúvida que não está aqui?</p>
+          <a href="[LINK_WHATSAPP]" class="btn btn--primary" data-cta="faq" data-wa>Perguntar no WhatsApp</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FINAL CTA ============ -->
+    <section class="section section--final">
+      <div class="container">
+        <div class="final reveal">
+          <h2 class="final__title">A vaga que você quer já tem candidatos se preparando. <span class="text-gradient">Faça o seu currículo jogar a seu favor.</span></h2>
+          <p class="final__lead">O melhor momento para começar a somar pontos foi ontem. O segundo melhor é agora. Fale com um consultor e descubra o real potencial da sua candidatura.</p>
+          <a href="#contato" class="btn btn--primary btn--lg" data-cta="final">Quero Analisar Meu Currículo</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="#hero" class="brand" aria-label="HelpsMed">
+          <span class="brand__mark" aria-hidden="true">
+            <svg viewBox="0 0 32 32" width="30" height="30" fill="none">
+              <rect width="32" height="32" rx="9" fill="url(#brandGradF)"/>
+              <path d="M6 16h4.2l2-5.2 4 10.4 2-5.2H28" stroke="#fff" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+              <defs><linearGradient id="brandGradF" x1="0" y1="0" x2="32" y2="32"><stop stop-color="#14C4B0"/><stop offset="1" stop-color="#0E8F9E"/></linearGradient></defs>
+            </svg>
+          </span>
+          <span class="brand__text">Helps<span class="brand__accent">Med</span></span>
+        </a>
+        <p class="footer__tagline">Consultoria de alta performance para a residência médica. Transformamos currículos em candidaturas competitivas.</p>
+        <div class="footer__social">
+          <a href="[LINK_INSTAGRAM]" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.7"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.7"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor"/></svg>
+          </a>
+          <a href="[LINK_YOUTUBE]" aria-label="YouTube">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none"><rect x="2.5" y="5.5" width="19" height="13" rx="4" stroke="currentColor" stroke-width="1.7"/><path d="m10 9 5 3-5 3V9Z" fill="currentColor"/></svg>
+          </a>
+          <a href="[LINK_LINKEDIN]" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none"><rect x="3" y="3" width="18" height="18" rx="4" stroke="currentColor" stroke-width="1.7"/><path d="M7 10v7M7 7v.01M11 17v-4a2 2 0 0 1 4 0v4M11 17v-7" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <nav class="footer__col" aria-label="Navegação institucional">
+        <h4>Navegação</h4>
+        <a href="#hero">Home</a>
+        <a href="#servicos">Mentoria de Currículo</a>
+        <a href="#treinamentos">Treinamentos</a>
+        <a href="#sobre">Sobre Nós</a>
+        <a href="#faq">Perguntas frequentes</a>
+      </nav>
+
+      <nav class="footer__col" aria-label="Institucional">
+        <h4>Institucional</h4>
+        <a href="[LINK_POLITICA_PRIVACIDADE]">Política de Privacidade</a>
+        <a href="[LINK_TERMOS_USO]">Termos de Uso</a>
+        <a href="#contato">Contato</a>
+        <a href="[LINK_WHATSAPP]" data-wa>WhatsApp</a>
+      </nav>
+
+      <div class="footer__col footer__contact">
+        <h4>Contato</h4>
+        <p>[EMAIL]</p>
+        <p>[TELEFONE / WHATSAPP]</p>
+        <p>[CIDADE / UF]</p>
+        <p class="footer__partner">Parceria: Rede Curem</p>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <div class="container footer__bottom-inner">
+        <p>© <span id="year">2026</span> HelpsMed. Todos os direitos reservados. CNPJ [00.000.000/0001-00].</p>
+        <p class="footer__disclaimer">*Resultados variam conforme o histórico e o edital de cada candidato. A HelpsMed oferece orientação estratégica e capacitação; a aprovação depende do desempenho individual.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============ FLOATING WHATSAPP ============ -->
+  <a href="[LINK_WHATSAPP]" class="wa-float" aria-label="Falar no WhatsApp" data-cta="float-whatsapp" data-wa>
+    <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2Zm5.8 14.16c-.24.68-1.42 1.32-1.95 1.36-.5.05-1.14.24-3.72-.79-3.14-1.24-5.14-4.42-5.29-4.63-.15-.2-1.26-1.68-1.26-3.21s.8-2.28 1.09-2.59c.28-.31.62-.39.83-.39.2 0 .41 0 .59.01.19.01.44-.07.69.53.24.6.83 2.06.9 2.21.07.15.12.33.02.53-.1.2-.15.33-.29.5-.15.18-.31.4-.44.53-.15.15-.3.31-.13.6.17.29.76 1.25 1.63 2.03 1.12 1 2.06 1.31 2.35 1.46.29.15.46.13.63-.08.17-.2.72-.84.91-1.13.19-.29.39-.24.65-.15.26.1 1.65.78 1.94.92.28.15.47.22.54.34.07.12.07.68-.17 1.36Z"/></svg>
+    <span class="wa-float__pulse" aria-hidden="true"></span>
+  </a>
+
+  <!-- ============ EXIT INTENT MODAL ============ -->
+  <div class="modal" id="exitModal" hidden>
+    <div class="modal__overlay" data-close-modal></div>
+    <div class="modal__box" role="dialog" aria-modal="true" aria-labelledby="exitTitle">
+      <button class="modal__close" aria-label="Fechar" data-close-modal>&times;</button>
+      <span class="eyebrow eyebrow--center"><span class="eyebrow__dot"></span> Antes de você sair</span>
+      <h3 class="modal__title" id="exitTitle">Descubra <span class="text-gradient">quantos pontos</span> seu currículo ainda pode somar.</h3>
+      <p class="modal__text">Fale com um consultor e receba um primeiro direcionamento sobre o potencial da sua candidatura — sem compromisso.</p>
+      <a href="[LINK_WHATSAPP]" class="btn btn--primary btn--lg btn--block" data-cta="exit-modal" data-wa>Quero Meu Diagnóstico Gratuito</a>
+      <button class="modal__dismiss" data-close-modal>Agora não, obrigado</button>
+    </div>
+  </div>
+
+  <script src="assets/script.js" defer></script>
+</body>
+</html>
